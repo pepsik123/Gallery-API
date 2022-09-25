@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+.all_images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ .image {
+    width: 300px;
+     height: 200px;
+     margin-bottom: 20px;
+}
+ .image img {
+     width: inherit;
+     height: inherit;
+
+ }
+
+ .bigImage {
+
+ }
+ .big img {
+     width: 500px;
+     padding: 25px;
+ }
+
+ span {
+     font-size: 70px;
+     color: black;
+     cursor: pointer;
+ }
+
+ .big {
+     display: flex;
+     align-items: center;
+     width: 700px;
+     margin: 0 auto;
+ }
