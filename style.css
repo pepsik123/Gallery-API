@@ -3,46 +3,57 @@
     padding: 0;
     box-sizing: inherit;
 }
+body {
+    background-color: darkgray;
+}
 
 .container {
     width: 1500px;
-    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 6px solid #a9bdbd;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px;
+    background-color: #a9bdbd;
 }
+
+
 .all_images {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+    background-color: #a9bdbd;}
 
  .image {
     width: 300px;
      height: 200px;
      margin-bottom: 20px;
-}
+     border: thick double black;
+
+ }
  .image img {
      width: inherit;
      height: inherit;
 
  }
 
- .bigImage {
 
- }
  .big img {
-     width: 500px;
-     padding: 25px;
+     width: 600px;
+     margin-top: 30px;
+     border: 20px ridge rgb(245, 237, 237);
  }
-
  span {
-     font-size: 70px;
-     color: black;
+     font-size: 120px;
+     color: white;
      cursor: pointer;
+
  }
 
  .big {
      display: flex;
      align-items: center;
-     width: 700px;
+     width: 800px;
      margin: 0 auto;
-     color: palevioletred;
+     color: black;
  }
